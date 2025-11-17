@@ -43,4 +43,15 @@ async function applyLayout() {
     }
 }
 
+async function addOnNavToggleClick() {
+    document.addEventListener("click", (e) => {
+        const toggle = e.target.closest(".nav-toggle");
+        if (!toggle) return;
+
+        document.querySelector(".nav-links").classList.toggle("active");
+    });
+}
+
 applyLayout();
+addOnNavToggleClick();
+

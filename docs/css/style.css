@@ -118,7 +118,7 @@ nav {
     padding: 0.75rem 1.5rem;
 }
 
-nav a {
+.nav-links a {
     color: white;
     text-decoration: none;
     padding: 0.4rem 0.8rem;
@@ -127,6 +127,42 @@ nav a {
     font-size: 0.95rem;
 }
 
-nav a:hover {
+.nav-links a:hover, .nav-links a.selected {
     background: #555;
+    color: white;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    /* Hide links by default on mobile */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+        background: #333;
+        border-top: 1px solid #444;
+        padding-top: 1rem;
+    }
+
+    /* Show links when menu is active */
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0.8rem 1rem;
+    }
 }
