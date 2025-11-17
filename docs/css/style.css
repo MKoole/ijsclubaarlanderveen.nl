@@ -111,14 +111,14 @@ span#coc {
   }
 }
 
-.nav {
+nav {
     display: flex;
     gap: 1rem;
     background: #333;
     padding: 0.75rem 1.5rem;
 }
 
-.nav a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 0.4rem 0.8rem;
@@ -127,6 +127,6 @@ span#coc {
     font-size: 0.95rem;
 }
 
-.nav a:hover {
+nav a:hover {
     background: #555;
 }
