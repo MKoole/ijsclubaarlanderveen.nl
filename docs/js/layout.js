@@ -64,6 +64,7 @@ async function initSlideshow() {
             arrows: true,
             pagination: false,
             height: '60vh',
+            width: '100%'
         });
 
         splide.mount();
