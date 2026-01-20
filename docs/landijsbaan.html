@@ -13,8 +13,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/splide.min.css" />
         <script src="./js/layout.js"></script>
-        <script src="./js/background.js"></script>
+        <script src="./js/splide.min.js"></script>
+        <script src="./js/slideshow.js"></script>
 
         <link rel="icon"
               href="data:image/svg+xml,
@@ -26,12 +28,34 @@
     <body>
 
         <div data-include-content>
-            <div id="blockcontainer">
-                <div class="infoblock">
-                    <h2>Landijsbaan</h2>
-                    <p>
-                        Midden in de polder ligt onze prachtige landijsbaan, tegenover het voetbalveld van S.V. Aarlanderveen. Zodra Koning Winter zijn werk doet, maken wij het ijs klaar voor iedereen. Het is een plek vol verhalen, waar generaties elkaar ontmoeten en het echte wintergevoel herleeft – met warme chocolademelk en een praatje langs de kant.
-                    </p>                    
+            <div class="infoblock">
+                <h2>Landijsbaan</h2>
+                <p>
+                    Midden in de polder ligt onze prachtige landijsbaan, tegenover het voetbalveld van S.V. Aarlanderveen. Zodra Koning Winter zijn werk doet, maken wij het ijs klaar voor iedereen. Het is een plek vol verhalen, waar generaties elkaar ontmoeten en het echte wintergevoel herleeft – met warme chocolademelk en een praatje langs de kant.
+                </p>
+            </div>
+
+            <div class="infoblock">
+                <div id="splide" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <video src="/img/photos/homepage/4.mp4" controls></video>
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/landijsbaan/1.jpeg" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/2.jpeg" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/3.jpeg" />
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

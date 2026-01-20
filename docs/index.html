@@ -13,8 +13,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/splide.min.css" />
         <script src="./js/layout.js"></script>
-        <script src="./js/background.js"></script>
+        <script src="./js/splide.min.js"></script>
+        <script src="./js/slideshow.js"></script>
 
         <link rel="icon"
               href="data:image/svg+xml,
@@ -26,7 +28,7 @@
     <body>
 
         <div data-include-content>
-            <div id="blockcontainer">
+            <div class="infoblock">
                 <p>
                     Welkom bij IJslub Nooit Gedacht – Aarlanderveen
                 </p>
@@ -37,7 +39,73 @@
                 <br />
                 <p>Gallerij met foto's van de ijsclub en evenementen zal hier komen.</p>
             </div>
-        </div>
 
+            <div class="infoblock">
+                <div id="splide" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/001.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/002.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/003.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/004.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/005.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/006.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/007.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/008.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/009.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/010.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="/img/photos/homepage/011.JPEG" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <video src="video1.mp4" controls></video>
+                            </li>
+
+                            <li class="splide__slide">
+                                <img src="image2.jpg" alt="Image 2" />
+                            </li>
+
+                            <li class="splide__slide">
+                                <video src="video2.mp4" controls></video>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </body>
 </html>
