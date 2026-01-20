@@ -58,13 +58,14 @@ async function initSlideshow() {
         const splide = new Splide('#splide', {
             type: 'loop',
             autoplay: true,
-            interval: 15000,      // 15 seconds
+            interval: 15000,    
             pauseOnHover: true,
             pauseOnFocus: true,
             arrows: true,
             pagination: false,
             height: '60vh',
-            width: '100%'
+            width: '100%',
+            autoWidth: false,
         });
 
         splide.mount();
