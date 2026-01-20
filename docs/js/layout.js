@@ -76,6 +76,6 @@ function initSlideshow() {
     }
 }
 
-applyLayout();
+await applyLayout();
 addOnNavToggleClick();
-setTimeout(initSlideshow, 0);
+initSlideshow();
