@@ -52,7 +52,7 @@ async function addOnNavToggleClick() {
     });
 }
 
-function initSlideshow() {
+async function initSlideshow() {
     var spildeElement = document.getElementById('splide');
     if (spildeElement) {
         const splide = new Splide('#splide', {
@@ -76,6 +76,10 @@ function initSlideshow() {
     }
 }
 
-await applyLayout();
-addOnNavToggleClick();
-initSlideshow();
+async function main() {
+    await applyLayout();
+    addOnNavToggleClick();
+    initSlideshow();
+}
+
+main();
