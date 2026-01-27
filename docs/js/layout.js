@@ -63,8 +63,8 @@ async function initSlideshow() {
             pauseOnFocus: true,
             arrows: true,
             pagination: false,
-            height: '60vh',
-            width: '100%',
+            height: '500px',
+            width: '40vw',
             autoWidth: false,
         });
 
