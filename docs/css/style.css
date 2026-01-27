@@ -151,8 +151,11 @@ nav {
     aspect-ratio: 16 / 9;
 }
 
-.splide__slide img,
 .splide__slide video {
+    width: 100%;
+}
+
+.splide__slide img {
     width: 100%;
     object-fit: cover;
 }
