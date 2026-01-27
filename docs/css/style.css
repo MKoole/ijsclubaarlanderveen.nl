@@ -113,7 +113,7 @@ span#coc {
 
 @media screen and (max-width: 739px) {
     #splide {
-        max-width: 85vw;
+        max-width: 85vw!important;
     }
 }
 
