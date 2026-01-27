@@ -111,6 +111,12 @@ span#coc {
   }
 }
 
+@media screen and (max-width: 739px) {
+    #splide {
+        max-width: 85vw;
+    }
+}
+
 nav {
     display: flex;
     gap: 1rem;
